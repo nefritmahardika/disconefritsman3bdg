@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1024px){
+    .box{
+        margin: 10px;
+        margin-top: 20px;
+    }
+    .description p{
+        font-size: 90%;
+        margin: 50px;
+
+    }
+    .slide img{
+        max-width: 100%;
+    }
+} 
+@media only screen and (max-width: 768px){
+    .album{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .menu{
+        width: 70%;
+    }
+
+    .description p{
+        font-size: 90%;
+        margin: 30px;
+
+    }
+    .catalog{
+        margin-top: 150px;
+    }
+} 
